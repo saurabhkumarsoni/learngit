@@ -1,0 +1,638 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .navbar 
+    {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+    .row.content {height: 2500px}
+    
+    /* Set gray background color and 100% height */
+
+  
+
+.sidenav
+{
+    padding-top: 20px;
+    background-color: white;
+    height: 2500px;
+    padding-left: 10px;
+}
+
+/*@media (min-width: 768px)
+.col-sm-2 {
+    width: 16.66666667%;
+}*/
+    
+    
+
+.headerList
+{
+    
+   
+    background-color: #F7F7F7;
+    border-bottom: 1px solid gray;
+}
+
+.headerList ul
+{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.headerList ul li
+{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.headerList ul li a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+.headerList ul li a:hover
+{
+    color: brown;
+}
+
+.LogoCoantainer
+{
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+}
+
+.logo
+{
+    width: 190px;
+    height: 73px;
+    
+    float: left;
+    background: url(../images/top1.png) -393px 0;
+}
+
+.Ad1
+{
+    width: 25%;
+    height: 73px;
+    float: right;
+    background-image: url(../images/Add/prolific-systems-india.gif);
+    background-size: cover;
+}
+
+.Ad2
+{
+    width: 20%;
+    height: 73px;
+    float: right;
+    background-image: url(../images/Add/placement-training.jpg);
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.Ad3
+{
+    width: 20%;
+    height: 73px;
+    float: right;
+    background-image: url(../images/Add/inventateq-bangalore-training.gif);
+     background-size: cover;
+    background-size: 210px 71px;
+    margin-left: 20px;
+}
+
+.navbar
+{
+    width: 80%;
+    border-radius: 10%;
+    
+    min-height: 30px;
+    
+    
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0b97e1), to(#076ba1));
+    border: 1px solid #076090;
+    -moz-box-shadow: inset 0px 0px 1px #076090;
+    -webkit-box-shadow: inset 0px 0px 1px #076090;
+    box-shadow: inset 0px 0px 1px #076090;
+}
+
+.btnmine
+{
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-menu-size-home
+{
+    width: 250px;
+    height: 260px;
+    padding: 10px;
+    background-color: #F8FAFC;
+}
+
+.dropdown:hover .dropdown-menu-size-home
+{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-size-ti
+{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-size-tm
+{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-size-ct
+{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-size-co
+{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-size-i
+{
+    display: block;
+}
+
+.dropdown:hover .btnmine {
+    background-color: #F8FAFC;
+}
+
+.dropdown-menu-size-ti
+{
+    width: 560px;
+    height: 350px;
+    padding: 10px;
+    background-color: #F8FAFC;
+    
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.dropdown-menu-size-tm
+{
+    width: 450px;
+    height: 350px;
+    padding: 13px;
+    background-color: #F8FAFC;
+    
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.tmImg
+{
+    width: 100%;
+    height: 75px;
+}
+
+.tmImg1
+{
+    float: left;
+    width: 20%;
+    height: 75px;
+}
+
+.tmImg1 img
+{
+    box-shadow: 2px 2px 3px black;
+}
+
+.tmImgText
+{
+    width: 75%;
+    height: 75px;
+    margin-left: 110px;
+    text-align: left;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.dropdown-menu-size-ct
+{
+    width: 320px;
+    height: 300px;
+    padding: 10px;
+    background-color: #F8FAFC;
+    
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.dropdown-menu-size-co
+{
+    width: 150px;
+    height: 130px;
+    padding: 10px;
+    background-color: #F8FAFC;
+    
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.dropdown-menu-size-i
+{
+   width: 150px;
+    height: 130px;
+    padding: 10px;
+    background-color: #F8FAFC;
+    
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.simple li
+{
+    list-style-type: none;
+    padding: 4px;
+}
+
+
+.subList
+{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    font-weight: bold;
+    font-size:10px;
+}
+
+.subList a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.search-Courses
+{
+    
+    height: 60px;
+    background-color: #D7E6ED;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+        width: 1074px;
+}
+
+.form-Div
+{
+    width: 80%;
+    height: 200px;
+    margin: 10px;
+}
+
+
+.form-Div-Left
+{
+    float: left;
+    width: auto;
+    height: 200px;
+    background-color: #F1FAFF;
+    border-radius: 20px;
+    border: 1px solid silver;
+    margin-left: 0px;
+    
+}
+
+@media screen and (max-width: 959px) {
+    .form-Div
+    { width:100%;
+    }
+    .form-Div-Left
+    {
+        width: 60%;
+    }
+    .form-Div-Right
+    {
+        width:40%;
+    }
+    #searchmiddle
+    {
+        width: 50%;
+    }
+}
+#searchleft 
+{
+    float: left;
+    width: 15px;
+    height: 197px;
+    background-position: 0 0;
+}
+
+#searchmiddle 
+{
+    
+    width: 713px;
+    height: 200px;
+        padding-right: -14px;
+}
+
+#searching 
+{
+   height: 175px;
+    margin: 12px 0px 0px 0px;
+}
+
+.leftsearch
+{
+    height: 140px;
+    float: left;
+    
+}
+
+.headings
+{
+    text-align: left;
+    font-size: 14px;
+    padding-left: 5px;
+    color: #002e68;
+    font-weight: bold;
+}
+
+.contheader
+{
+    
+    text-align: left;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.search_select
+{
+    width: 140px;
+    height: 25px;
+    font-size: 11px;
+  
+    
+}
+
+.rightsearch {
+    float: right;
+    width: 550px;
+    height: 150px;
+   
+}
+
+.fillform {
+    padding: 3px 0 17px 5px;
+    float:left;
+}
+
+.search_txtbox {
+    width: 137px;
+    font-size: 11px;
+    color: #666;
+    /* padding-left: 5px; */
+    padding: 5px;
+}
+
+.search_textarea {
+    width: 275px;
+    height: 50px;
+    color: #666;
+    padding-left: 5px;
+}
+
+
+
+.search_submit {
+    width: 32px;
+    height: 32px;
+    padding-left: 20px;
+    margin-top: 43px;
+    background-image: url(http://w2.34hi.com/go.png);
+    background-repeat: no-repeat;
+    border: solid 0px;
+    cursor: pointer;
+}
+
+.form-Div-Right
+{
+    
+    float: right;
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid silver;
+    background: url(../images/Add/top2.png) no-repeat -33px;
+    background-size: 365px 200px;
+    background-size: cover;  
+}
+
+
+
+.searchbackround 
+{
+    
+    height: 60px;
+    margin-left:50px;
+    float: left;
+}
+
+.top_search_new {
+    width: 100px;
+    height: 22px;
+    background-image: url(../images/search-btn-new.jpg);
+    background-repeat: no-repeat;
+    border: solid 0px;
+    cursor: pointer;
+}
+
+#ask-answer-img 
+{
+    background-position: 0 0;
+    width: 342px;
+    height: 58px;
+    float: right;
+    margin-right: 10px;
+}
+
+.yet5top1
+{
+    background: url(../images/top1.png) no-repeat top left;
+}
+
+/* main Part */
+
+.row
+{	
+    text-align: left;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000;
+	padding-left:40px;
+		
+}
+	
+.row ul li
+{
+    list-style-image: url(http://w3.34hi.com/arrow.gif); 
+    
+    line-height: 20px;
+}
+
+.row h5
+{   text-align: left;
+    font-size: 14px;
+    padding-left: 40px;
+    color: #002e68;
+    font-weight:bold;
+}
+/*ABOUT US*/
+p
+{
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+/* footer start */
+ 
+
+footer
+{
+    width:80%;
+  
+}
+
+footer ul
+{
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+footer ul li
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  
+    font-size: 12px;
+    
+}
+
+footer 
+{
+  background-image: url(../images/footer.jpg);
+    padding: 15px;
+    background-size: cover;
+}
+
+.footer2 ul
+{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.footer2 ul li
+{
+    display: inline-block;
+  
+  
+    font-size: 12px;
+}
+.footer2 ul li
+{
+    color: black;
+    text-decoration: none;
+      
+}
+
+*/
+
+/* All media query is here */
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+   
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) 
+    {
+      .sidenav 
+      {
+          display: none;
+          /*
+        height: auto;
+        padding: 15px;
+          */
+      }
+      .row.content {height:auto;} 
+    }
+              
+    @media screen and (max-width: 1000px) 
+    {
+      .headerList ul li 
+      {
+        font-size: 11px;
+      }
+        
+        .Ad1,.Ad2,.Ad3
+      {
+          display: none;
+      }
+        .logo
+        {
+                margin: 0 0 0 -10px;
+                margin-left: 55px;
+        }
+        
+    }
+             
+   @media screen and (max-width: 1100px) 
+    {
+      .headerList
+      {
+          
+        height: auto;
+      }
+    }
+    
+           
+    @media screen and (max-width: 700px) 
+    {
+      .headerList
+     {
+          display: none;
+     }
+}
+
+
+
+          /*
+        nav
+        {
+            top: -100px;
+            left: -70px;
+            
+        }
+    }
+             */
+     

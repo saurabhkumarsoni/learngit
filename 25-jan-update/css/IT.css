@@ -1,0 +1,11 @@
+.topbar{background-color:#3193C6; padding:5px 3px 3px;display:block}
+.social-icons a{padding:0px 20px}
+.social-icons .fa{font-size: 17px;color:#fff;}
+.paddLR0{padding-left:0px;padding-right:0px;}
+.topbar-container > a{padding:0px 10px;display:inline-block;}
+.text-topbar{color:#fff;}
+.topbar-container .fa{color:#fff;margin-right: 10px;}
+
+@media (max-width:640px) {
+.topbar{display:none}
+}
